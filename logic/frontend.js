@@ -1,7 +1,9 @@
 "use strict"
 
-var util = require('../logic/util');
-var passengers = require('../logic/passengers');
+var Util = require('../logic/util');
+var Passengers = require('../logic/passengers');
+var Flights = require('../logic/flights');
+
 
 function onCalculateNumberOfFlights() {
     let passengers = document.getElementById('passengers').value;
@@ -13,7 +15,7 @@ function onCalculateNumberOfFlights() {
     } catch (error) {
         document.getElementById('flights').innerHTML = error; 
     } finally {
-        console.log(numberOfPassengers, flightCapacity);
+        console.log(passengers, capacity);
         }
     }
 
