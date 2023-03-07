@@ -41,7 +41,7 @@ function Passengers() {
                 vipPassengersWithEconomySeats:vipPassengersWithEconomySeats, regularPassengersWithBusinessSeats:regularPassengersWithBusinessSeats,
                 regularPassengersWithEconomySeats:regularPassengersWithEconomySeats};
     }
-    
+    return {distributeAllSeatsToAllPassengers}; 
 }
 
 module.exports = Passengers();
