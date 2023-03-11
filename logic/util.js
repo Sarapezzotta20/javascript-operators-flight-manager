@@ -18,7 +18,7 @@ function Util() {
      }
 
      return {calculateTotalDistributedPassengers, calculateTotalNumberOfPassengers};
-
+     
 }
 
 module.exports = Util();
